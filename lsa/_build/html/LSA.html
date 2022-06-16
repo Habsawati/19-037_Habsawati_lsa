@@ -1,0 +1,1505 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>CRAWLING DATA BERITA &#8212; My sample book</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to your Jupyter Book" href="intro.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">My sample book</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to your Jupyter Book
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   CRAWLING DATA BERITA
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/LSA.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FLSA.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/LSA.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.ipynb</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   CRAWLING DATA BERITA
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#import-library-yang-diperlukan">
+   Import Library yang Diperlukan
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-dataset">
+   Load Dataset
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-cleaning-pre-processing">
+   DATA CLEANING &amp; PRE-PROCESSING
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#menghapus-angka">
+     Menghapus Angka
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#menghapus-simbol-dan-tanda-baca">
+     Menghapus Simbol dan tanda Baca
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#stopword">
+     Stopword
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#mengekstrak-fitur-dan-membuat-document-term-matrix-dtm">
+     MENGEKSTRAK FITUR DAN MEMBUAT DOCUMENT-TERM-MATRIX ( DTM )
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#lsa">
+     LSA
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>CRAWLING DATA BERITA</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   CRAWLING DATA BERITA
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#import-library-yang-diperlukan">
+   Import Library yang Diperlukan
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-dataset">
+   Load Dataset
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-cleaning-pre-processing">
+   DATA CLEANING &amp; PRE-PROCESSING
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#menghapus-angka">
+     Menghapus Angka
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#menghapus-simbol-dan-tanda-baca">
+     Menghapus Simbol dan tanda Baca
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#stopword">
+     Stopword
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#mengekstrak-fitur-dan-membuat-document-term-matrix-dtm">
+     MENGEKSTRAK FITUR DAN MEMBUAT DOCUMENT-TERM-MATRIX ( DTM )
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#lsa">
+     LSA
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section id="crawling-data-berita">
+<h1>CRAWLING DATA BERITA<a class="headerlink" href="#crawling-data-berita" title="Permalink to this headline">#</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">scrapy</span>
+<span class="k">class</span> <span class="nc">QuotesSpider</span><span class="p">(</span><span class="n">scrapy</span><span class="o">.</span><span class="n">Spider</span><span class="p">):</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;quotes&quot;</span>
+
+    <span class="k">def</span> <span class="nf">start_requests</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">urls</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="s1">&#39;https://nasional.sindonews.com/&#39;</span><span class="p">,</span>
+        <span class="p">]</span>
+        <span class="k">for</span> <span class="n">url</span> <span class="ow">in</span> <span class="n">urls</span><span class="p">:</span>
+            <span class="k">yield</span> <span class="n">scrapy</span><span class="o">.</span><span class="n">Request</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="n">url</span><span class="p">,</span> <span class="n">callback</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">parse</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">parse</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">response</span><span class="p">):</span>
+        <span class="c1"># print(response.url)</span>
+
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">30</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">berita</span> <span class="ow">in</span> <span class="n">response</span><span class="o">.</span><span class="n">css</span><span class="p">(</span><span class="s1">&#39;body &gt; div:nth-child(6) &gt; section &gt; div.grid_24 &gt; div.homelist-new.scroll&#39;</span><span class="p">):</span>
+                <span class="k">yield</span><span class="p">{</span>
+                    <span class="s1">&#39;Topik&#39;</span><span class="p">:</span> <span class="n">berita</span><span class="o">.</span><span class="n">css</span><span class="p">(</span><span class="s1">&#39; ul &gt; li.latest-event.latest-track-&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39; &gt; div.homelist-box &gt; div.homelist-top &gt; div.homelist-channel::text&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">extract</span><span class="p">(),</span>
+                    <span class="s1">&#39;Tanggal&#39;</span><span class="p">:</span> <span class="n">berita</span><span class="o">.</span><span class="n">css</span><span class="p">(</span><span class="s1">&#39; ul &gt; li.latest-event.latest-track-&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39; &gt; div.homelist-box &gt; div.homelist-top &gt; div.homelist-date::text&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">extract</span><span class="p">(),</span>
+                    <span class="s1">&#39;Judul&#39;</span><span class="p">:</span> <span class="n">berita</span><span class="o">.</span><span class="n">css</span><span class="p">(</span><span class="s1">&#39; ul &gt; li.latest-event.latest-track-&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39; &gt; div.homelist-box &gt; div.homelist-title &gt; a::text&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">extract</span><span class="p">(),</span>
+                    <span class="c1"># &#39;link&#39;: response.css(&#39;body &gt; div:nth-child(6) &gt; section &gt; div.grid_24 &gt; div.homelist-new.scroll &gt; ul &gt; li.latest-event.latest-track-0 &gt; div.homelist-box &gt; div.homelist-title &gt; a::@href&#39;).extract(),</span>
+                    <span class="s1">&#39;gambar&#39;</span><span class="p">:</span> <span class="n">berita</span><span class="o">.</span><span class="n">css</span><span class="p">(</span><span class="s1">&#39;ul &gt; li.latest-event.latest-track-&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39; &gt; div.homelist-pict &gt; a &gt; img::text&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">extract</span><span class="p">(),</span>
+                    <span class="s1">&#39;Deskripsi&#39;</span><span class="p">:</span> <span class="n">berita</span><span class="o">.</span><span class="n">css</span><span class="p">(</span><span class="s1">&#39; ul &gt; li.latest-event.latest-track-&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39; &gt; div.homelist-box &gt; div.homelist-desc::text&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">extract</span><span class="p">(),</span>
+
+                <span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="import-library-yang-diperlukan">
+<h1>Import Library yang Diperlukan<a class="headerlink" href="#import-library-yang-diperlukan" title="Permalink to this headline">#</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># data visualisation and manipulation</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">style</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="c1">#configure</span>
+<span class="c1"># sets matplotlib to inline and displays graphs below the corressponding cell.</span>
+<span class="o">%</span><span class="k">matplotlib</span> inline  
+<span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s1">&#39;fivethirtyeight&#39;</span><span class="p">)</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s1">&#39;whitegrid&#39;</span><span class="p">,</span><span class="n">color_codes</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1">#import nltk</span>
+<span class="kn">import</span> <span class="nn">nltk</span>
+<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">stopwords</span>
+<span class="kn">from</span> <span class="nn">nltk.tokenize</span> <span class="kn">import</span> <span class="n">word_tokenize</span><span class="p">,</span><span class="n">sent_tokenize</span>
+
+<span class="c1">#preprocessing</span>
+<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">stopwords</span>  <span class="c1">#stopwords</span>
+<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">word_tokenize</span><span class="p">,</span><span class="n">sent_tokenize</span> <span class="c1"># tokenizing</span>
+<span class="kn">from</span> <span class="nn">nltk.stem</span> <span class="kn">import</span> <span class="n">PorterStemmer</span><span class="p">,</span><span class="n">LancasterStemmer</span>  <span class="c1"># using the Porter Stemmer and Lancaster Stemmer and others</span>
+<span class="kn">from</span> <span class="nn">nltk.stem.snowball</span> <span class="kn">import</span> <span class="n">SnowballStemmer</span>
+<span class="kn">from</span> <span class="nn">nltk.stem</span> <span class="kn">import</span> <span class="n">WordNetLemmatizer</span>  <span class="c1"># lammatizer from WordNet</span>
+
+<span class="c1"># for named entity recognition (NER)</span>
+<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">ne_chunk</span>
+
+<span class="c1"># vectorizers for creating the document-term-matrix (DTM)</span>
+<span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">TfidfVectorizer</span><span class="p">,</span><span class="n">CountVectorizer</span>
+
+<span class="c1">#stop-words</span>
+<span class="n">stop_words</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">nltk</span><span class="o">.</span><span class="n">corpus</span><span class="o">.</span><span class="n">stopwords</span><span class="o">.</span><span class="n">words</span><span class="p">(</span><span class="s1">&#39;indonesian&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
+<span class="nn">Input In [2],</span> in <span class="ni">&lt;cell line: 3&gt;</span><span class="nt">()</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># data visualisation and manipulation</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="ne">----&gt; </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">style</span>
+
+<span class="ne">ModuleNotFoundError</span>: No module named &#39;pandas&#39;
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="load-dataset">
+<h1>Load Dataset<a class="headerlink" href="#load-dataset" title="Permalink to this headline">#</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;scrapy_berita.csv&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Topik</th>
+      <th>Tanggal</th>
+      <th>Judul</th>
+      <th>isi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Politik</td>
+      <td>Selasa, 22 Maret 2022 - 14:26 WIB</td>
+      <td>Hadapi Pemilu 2024, PKS Gelar Konsolidasi Pimp...</td>
+      <td>Fraksi PKS DPR akan mengadakan Konsolidasi Nas...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Politik</td>
+      <td>Selasa, 22 Maret 2022 - 14:10 WIB</td>
+      <td>Isu Reshuffle Mencuat, Gerindra Beri Respons B...</td>
+      <td>Isu perombakan (reshuffle) kabinet kembali men...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Hankam</td>
+      <td>Selasa, 22 Maret 2022 - 14:02 WIB</td>
+      <td>Jenderal Andika Akan Diangkat Jadi Warga Kehor...</td>
+      <td>Komandan Korps Marinir Mayjen TNI (Mar) Widodo...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Hankam</td>
+      <td>Selasa, 22 Maret 2022 - 13:45 WIB</td>
+      <td>KPU Kembali Tegaskan Tidak Ada Penundaan Pemil...</td>
+      <td>Ketua Komisi Pemilihan Umum (KPU) Ilham Saputr...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Opini</td>
+      <td>Selasa, 22 Maret 2022 - 13:42 WIB</td>
+      <td>Mengenal Komunikasi Pemasaran Jasa di Era Disr...</td>
+      <td>Menghadapi era disrupsi tentu tidak hanya diha...</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># drop the publish date.</span>
+<span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;Topik&#39;</span><span class="p">,</span> <span class="s1">&#39;Tanggal&#39;</span><span class="p">,</span> <span class="s1">&#39;Judul&#39;</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>isi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Fraksi PKS DPR akan mengadakan Konsolidasi Nas...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Isu perombakan (reshuffle) kabinet kembali men...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Komandan Korps Marinir Mayjen TNI (Mar) Widodo...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Ketua Komisi Pemilihan Umum (KPU) Ilham Saputr...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Menghadapi era disrupsi tentu tidak hanya diha...</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>KPK menyelidiki kembali pengadaan E-KTP yang d...</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Polri meralat pernyataan terkait Gilang Widya ...</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Akademisi Universitas Paramadina, Yudi Latif m...</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Komisi Pemilihan Umum (KPU) menggelar simulasi...</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Puncak Haul ke-5 KH Hasyim Muzadi telah digela...</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="data-cleaning-pre-processing">
+<h1>DATA CLEANING &amp; PRE-PROCESSING<a class="headerlink" href="#data-cleaning-pre-processing" title="Permalink to this headline">#</a></h1>
+<section id="menghapus-angka">
+<h2>Menghapus Angka<a class="headerlink" href="#menghapus-angka" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">string</span> 
+<span class="kn">import</span> <span class="nn">re</span> <span class="c1">#regex library</span>
+
+<span class="c1"># import word_tokenize &amp; FreqDist from NLTK</span>
+<span class="kn">from</span> <span class="nn">nltk.tokenize</span> <span class="kn">import</span> <span class="n">word_tokenize</span> 
+<span class="kn">from</span> <span class="nn">nltk.probability</span> <span class="kn">import</span> <span class="n">FreqDist</span>
+
+<span class="c1">#remove number</span>
+<span class="k">def</span> <span class="nf">remove_number</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="k">return</span>  <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\d+&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;hapus angka&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;isi&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">remove_number</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>isi</th>
+      <th>hapus angka</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Fraksi PKS DPR akan mengadakan Konsolidasi Nas...</td>
+      <td>Fraksi PKS DPR akan mengadakan Konsolidasi Nas...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Isu perombakan (reshuffle) kabinet kembali men...</td>
+      <td>Isu perombakan (reshuffle) kabinet kembali men...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Komandan Korps Marinir Mayjen TNI (Mar) Widodo...</td>
+      <td>Komandan Korps Marinir Mayjen TNI (Mar) Widodo...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Ketua Komisi Pemilihan Umum (KPU) Ilham Saputr...</td>
+      <td>Ketua Komisi Pemilihan Umum (KPU) Ilham Saputr...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Menghadapi era disrupsi tentu tidak hanya diha...</td>
+      <td>Menghadapi era disrupsi tentu tidak hanya diha...</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>KPK menyelidiki kembali pengadaan E-KTP yang d...</td>
+      <td>KPK menyelidiki kembali pengadaan E-KTP yang d...</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Polri meralat pernyataan terkait Gilang Widya ...</td>
+      <td>Polri meralat pernyataan terkait Gilang Widya ...</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Akademisi Universitas Paramadina, Yudi Latif m...</td>
+      <td>Akademisi Universitas Paramadina, Yudi Latif m...</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Komisi Pemilihan Umum (KPU) menggelar simulasi...</td>
+      <td>Komisi Pemilihan Umum (KPU) menggelar simulasi...</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Puncak Haul ke-5 KH Hasyim Muzadi telah digela...</td>
+      <td>Puncak Haul ke- KH Hasyim Muzadi telah digelar...</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</section>
+<section id="menghapus-simbol-dan-tanda-baca">
+<h2>Menghapus Simbol dan tanda Baca<a class="headerlink" href="#menghapus-simbol-dan-tanda-baca" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#remove punctuation(simbol dan tanda baca)</span>
+<span class="k">def</span> <span class="nf">remove_punctuation</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">translate</span><span class="p">(</span><span class="nb">str</span><span class="o">.</span><span class="n">maketrans</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="n">string</span><span class="o">.</span><span class="n">punctuation</span><span class="p">))</span>
+
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;hapus simbol&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;hapus angka&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">remove_punctuation</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>isi</th>
+      <th>hapus angka</th>
+      <th>hapus simbol</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Fraksi PKS DPR akan mengadakan Konsolidasi Nas...</td>
+      <td>Fraksi PKS DPR akan mengadakan Konsolidasi Nas...</td>
+      <td>Fraksi PKS DPR akan mengadakan Konsolidasi Nas...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Isu perombakan (reshuffle) kabinet kembali men...</td>
+      <td>Isu perombakan (reshuffle) kabinet kembali men...</td>
+      <td>Isu perombakan reshuffle kabinet kembali mencu...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Komandan Korps Marinir Mayjen TNI (Mar) Widodo...</td>
+      <td>Komandan Korps Marinir Mayjen TNI (Mar) Widodo...</td>
+      <td>Komandan Korps Marinir Mayjen TNI Mar Widodo D...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Ketua Komisi Pemilihan Umum (KPU) Ilham Saputr...</td>
+      <td>Ketua Komisi Pemilihan Umum (KPU) Ilham Saputr...</td>
+      <td>Ketua Komisi Pemilihan Umum KPU Ilham Saputra ...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Menghadapi era disrupsi tentu tidak hanya diha...</td>
+      <td>Menghadapi era disrupsi tentu tidak hanya diha...</td>
+      <td>Menghadapi era disrupsi tentu tidak hanya diha...</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>KPK menyelidiki kembali pengadaan E-KTP yang d...</td>
+      <td>KPK menyelidiki kembali pengadaan E-KTP yang d...</td>
+      <td>KPK menyelidiki kembali pengadaan EKTP yang di...</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Polri meralat pernyataan terkait Gilang Widya ...</td>
+      <td>Polri meralat pernyataan terkait Gilang Widya ...</td>
+      <td>Polri meralat pernyataan terkait Gilang Widya ...</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Akademisi Universitas Paramadina, Yudi Latif m...</td>
+      <td>Akademisi Universitas Paramadina, Yudi Latif m...</td>
+      <td>Akademisi Universitas Paramadina Yudi Latif me...</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Komisi Pemilihan Umum (KPU) menggelar simulasi...</td>
+      <td>Komisi Pemilihan Umum (KPU) menggelar simulasi...</td>
+      <td>Komisi Pemilihan Umum KPU menggelar simulasi p...</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Puncak Haul ke-5 KH Hasyim Muzadi telah digela...</td>
+      <td>Puncak Haul ke- KH Hasyim Muzadi telah digelar...</td>
+      <td>Puncak Haul ke KH Hasyim Muzadi telah digelar ...</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</section>
+<section id="stopword">
+<h2>Stopword<a class="headerlink" href="#stopword" title="Permalink to this headline">#</a></h2>
+<p>Stopword adalah kata-kata umum yang sering muncul, yang tidak memberikan informasi penting (biasanya tidak diacuhkan atau dibuang misalnya dalam proses pembuatan indeks atau daftar kata)</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">clean_text</span><span class="p">(</span><span class="n">headline</span><span class="p">):</span>
+  <span class="n">le</span><span class="o">=</span><span class="n">WordNetLemmatizer</span><span class="p">()</span>
+  <span class="n">word_tokens</span><span class="o">=</span><span class="n">word_tokenize</span><span class="p">(</span><span class="n">headline</span><span class="p">)</span>
+  <span class="n">tokens</span><span class="o">=</span><span class="p">[</span><span class="n">le</span><span class="o">.</span><span class="n">lemmatize</span><span class="p">(</span><span class="n">w</span><span class="p">)</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">word_tokens</span> <span class="k">if</span> <span class="n">w</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">stop_words</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">w</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">3</span><span class="p">]</span>
+  <span class="n">cleaned_text</span><span class="o">=</span><span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">cleaned_text</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># time taking</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;stopword&#39;</span><span class="p">]</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;hapus simbol&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">clean_text</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>isi</th>
+      <th>hapus angka</th>
+      <th>hapus simbol</th>
+      <th>stopword</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Fraksi PKS DPR akan mengadakan Konsolidasi Nas...</td>
+      <td>Fraksi PKS DPR akan mengadakan Konsolidasi Nas...</td>
+      <td>Fraksi PKS DPR akan mengadakan Konsolidasi Nas...</td>
+      <td>Fraksi mengadakan Konsolidasi Nasional Pimpina...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Isu perombakan (reshuffle) kabinet kembali men...</td>
+      <td>Isu perombakan (reshuffle) kabinet kembali men...</td>
+      <td>Isu perombakan reshuffle kabinet kembali mencu...</td>
+      <td>perombakan reshuffle kabinet mencuat permukaan...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Komandan Korps Marinir Mayjen TNI (Mar) Widodo...</td>
+      <td>Komandan Korps Marinir Mayjen TNI (Mar) Widodo...</td>
+      <td>Komandan Korps Marinir Mayjen TNI Mar Widodo D...</td>
+      <td>Komandan Korps Marinir Mayjen Widodo Purwanto ...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Ketua Komisi Pemilihan Umum (KPU) Ilham Saputr...</td>
+      <td>Ketua Komisi Pemilihan Umum (KPU) Ilham Saputr...</td>
+      <td>Ketua Komisi Pemilihan Umum KPU Ilham Saputra ...</td>
+      <td>Ketua Komisi Pemilihan Umum Ilham Saputra penu...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Menghadapi era disrupsi tentu tidak hanya diha...</td>
+      <td>Menghadapi era disrupsi tentu tidak hanya diha...</td>
+      <td>Menghadapi era disrupsi tentu tidak hanya diha...</td>
+      <td>Menghadapi disrupsi dihadapkan inovasi pemanfa...</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>KPK menyelidiki kembali pengadaan E-KTP yang d...</td>
+      <td>KPK menyelidiki kembali pengadaan E-KTP yang d...</td>
+      <td>KPK menyelidiki kembali pengadaan EKTP yang di...</td>
+      <td>menyelidiki pengadaan EKTP diduga merugikan ke...</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Polri meralat pernyataan terkait Gilang Widya ...</td>
+      <td>Polri meralat pernyataan terkait Gilang Widya ...</td>
+      <td>Polri meralat pernyataan terkait Gilang Widya ...</td>
+      <td>Polri meralat pernyataan terkait Gilang Widya ...</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Akademisi Universitas Paramadina, Yudi Latif m...</td>
+      <td>Akademisi Universitas Paramadina, Yudi Latif m...</td>
+      <td>Akademisi Universitas Paramadina Yudi Latif me...</td>
+      <td>Akademisi Universitas Paramadina Yudi Latif In...</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Komisi Pemilihan Umum (KPU) menggelar simulasi...</td>
+      <td>Komisi Pemilihan Umum (KPU) menggelar simulasi...</td>
+      <td>Komisi Pemilihan Umum KPU menggelar simulasi p...</td>
+      <td>Komisi Pemilihan Umum menggelar simulasi penye...</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Puncak Haul ke-5 KH Hasyim Muzadi telah digela...</td>
+      <td>Puncak Haul ke- KH Hasyim Muzadi telah digelar...</td>
+      <td>Puncak Haul ke KH Hasyim Muzadi telah digelar ...</td>
+      <td>Puncak Haul Hasyim Muzadi digelar Masjid Pesan...</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;isi&#39;</span><span class="p">,</span> <span class="s1">&#39;hapus angka&#39;</span><span class="p">,</span> <span class="s1">&#39;hapus simbol&#39;</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>stopword</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Fraksi mengadakan Konsolidasi Nasional Pimpina...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>perombakan reshuffle kabinet mencuat permukaan...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Komandan Korps Marinir Mayjen Widodo Purwanto ...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Ketua Komisi Pemilihan Umum Ilham Saputra penu...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Menghadapi disrupsi dihadapkan inovasi pemanfa...</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>menyelidiki pengadaan EKTP diduga merugikan ke...</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Polri meralat pernyataan terkait Gilang Widya ...</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Akademisi Universitas Paramadina Yudi Latif In...</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Komisi Pemilihan Umum menggelar simulasi penye...</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Puncak Haul Hasyim Muzadi digelar Masjid Pesan...</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;stopword&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;Fraksi mengadakan Konsolidasi Nasional Pimpinan Fraksi DPRD Indonesia memantapkan kerja Pemilu&#39;
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="mengekstrak-fitur-dan-membuat-document-term-matrix-dtm">
+<h2>MENGEKSTRAK FITUR DAN MEMBUAT DOCUMENT-TERM-MATRIX ( DTM )<a class="headerlink" href="#mengekstrak-fitur-dan-membuat-document-term-matrix-dtm" title="Permalink to this headline">#</a></h2>
+<p>Dalam DTM nilainya adalah nilai TFidf.</p>
+<p>Parameter dari vectorizer Tfidf.</p>
+<p>Beberapa poin penting:-</p>
+<ol class="simple">
+<li><p>LSA umumnya diimplementasikan dengan nilai Tfidf di mana-mana dan tidak dengan Count Vectorizer.</p></li>
+<li><p>max_features tergantung pada daya komputasi Anda dan juga pada eval. metrik (skor koherensi adalah metrik untuk model topik). Coba nilai yang memberikan evaluasi terbaik. metrik dan tidak membatasi kekuatan pemrosesan.</p></li>
+<li><p>Nilai default untuk min_df &amp; max_df bekerja dengan baik.</p></li>
+<li><p>Dapat mencoba nilai yang berbeda untuk ngram_range.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">vect</span> <span class="o">=</span><span class="n">TfidfVectorizer</span><span class="p">(</span><span class="n">stop_words</span><span class="o">=</span><span class="n">stop_words</span><span class="p">,</span><span class="n">max_features</span><span class="o">=</span><span class="mi">1000</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">vect_text</span><span class="o">=</span><span class="n">vect</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;stopword&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>C:\Users\Lenovo\anaconda3\lib\site-packages\sklearn\feature_extraction\text.py:388: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens [&#39;baiknya&#39;, &#39;berkali&#39;, &#39;kali&#39;, &#39;kurangnya&#39;, &#39;mata&#39;, &#39;olah&#39;, &#39;sekurang&#39;, &#39;setidak&#39;, &#39;tama&#39;, &#39;tidaknya&#39;] not in stop_words.
+  warnings.warn(&#39;Your stop_words may be inconsistent with &#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">vect_text</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">vect_text</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(24, 260)
+  (0, 163)	0.18869386076704192
+  (0, 95)	0.29269397113686996
+  (0, 122)	0.29269397113686996
+  (0, 67)	0.2014909246321031
+  (0, 49)	0.29269397113686996
+  (0, 190)	0.29269397113686996
+  (0, 146)	0.2590336402883218
+  (0, 103)	0.29269397113686996
+  (0, 128)	0.29269397113686996
+  (0, 56)	0.5853879422737399
+  (1, 209)	0.2773500981126146
+  (1, 84)	0.2773500981126146
+  (1, 253)	0.2773500981126146
+  (1, 98)	0.2773500981126146
+  (1, 80)	0.2773500981126146
+  (1, 202)	0.2773500981126146
+  (1, 82)	0.2773500981126146
+  (1, 204)	0.2773500981126146
+  (1, 182)	0.2773500981126146
+  (1, 125)	0.2773500981126146
+  (1, 83)	0.2773500981126146
+  (1, 216)	0.2773500981126146
+  (1, 184)	0.2773500981126146
+  (2, 111)	0.2759433236738673
+  (2, 180)	0.2442093472812789
+  :	:
+  (21, 160)	0.2533013601388901
+  (21, 177)	0.2533013601388901
+  (21, 172)	0.2533013601388901
+  (21, 50)	0.2533013601388901
+  (21, 14)	0.22994748012388555
+  (21, 247)	0.2533013601388901
+  (21, 195)	0.22994748012388555
+  (22, 26)	0.2609920556495093
+  (22, 39)	0.2609920556495093
+  (22, 239)	0.2609920556495093
+  (22, 199)	0.2609920556495093
+  (22, 19)	0.2609920556495093
+  (22, 57)	0.5219841112990186
+  (22, 85)	0.2609920556495093
+  (22, 225)	0.2609920556495093
+  (22, 155)	0.46195500371007486
+  (22, 96)	0.193163636105512
+  (23, 181)	0.3744271379567232
+  (23, 222)	0.3744271379567232
+  (23, 102)	0.3744271379567232
+  (23, 44)	0.3744271379567232
+  (23, 180)	0.331367346552941
+  (23, 6)	0.331367346552941
+  (23, 79)	0.331367346552941
+  (23, 153)	0.331367346552941
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">idf</span><span class="o">=</span><span class="n">vect</span><span class="o">.</span><span class="n">idf_</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dd</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">vect</span><span class="o">.</span><span class="n">get_feature_names</span><span class="p">(),</span> <span class="n">idf</span><span class="p">))</span>
+<span class="n">l</span><span class="o">=</span><span class="nb">sorted</span><span class="p">(</span><span class="n">dd</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="p">(</span><span class="n">dd</span><span class="p">)</span><span class="o">.</span><span class="n">get</span><span class="p">)</span>
+<span class="c1"># print(l)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">l</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">l</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>pemilu yustiavandana
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="lsa">
+<h2>LSA<a class="headerlink" href="#lsa" title="Permalink to this headline">#</a></h2>
+<p>LSA pada dasarnya adalah dekomposisi nilai tunggal.</p>
+<p>SVD menguraikan DTM asli menjadi tiga matriks S=U.(sigma).(V.T). Di sini matriks U menunjukkan matriks dokumen-topik sementara (V) adalah matriks topik-term.</p>
+<p>Setiap baris dari matriks U (matriks istilah dokumen) adalah representasi vektor dari dokumen yang sesuai. Panjang vektor ini adalah jumlah topik yang diinginkan. Representasi vektor untuk suku-suku dalam data kami dapat ditemukan dalam matriks V (matriks istilah-topik).</p>
+<p>Jadi, SVD memberi kita vektor untuk setiap dokumen dan istilah dalam data kita. Panjang setiap vektor adalah k. Kami kemudian dapat menggunakan vektor-vektor ini untuk menemukan kata-kata dan dokumen serupa menggunakan metode kesamaan kosinus.</p>
+<p>Kita dapat menggunakan fungsi truncatedSVD untuk mengimplementasikan LSA. Parameter n_components adalah jumlah topik yang ingin kita ekstrak. Model tersebut kemudian di fit dan ditransformasikan pada hasil yang diberikan oleh vectorizer.</p>
+<p>Terakhir perhatikan bahwa LSA dan LSI (I untuk pengindeksan) adalah sama dan yang terakhir kadang-kadang digunakan dalam konteks pencarian informasi.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="kn">import</span> <span class="n">TruncatedSVD</span>
+<span class="n">lsa_model</span> <span class="o">=</span> <span class="n">TruncatedSVD</span><span class="p">(</span><span class="n">n_components</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">algorithm</span><span class="o">=</span><span class="s1">&#39;randomized&#39;</span><span class="p">,</span> <span class="n">n_iter</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+
+<span class="n">lsa_top</span><span class="o">=</span><span class="n">lsa_model</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">vect_text</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">lsa_top</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">lsa_top</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>  <span class="c1"># (no_of_doc*no_of_topics)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[ 6.11605737e-02  2.44100425e-01  2.42634424e-04 -2.91946426e-01
+  -1.05966812e-01  3.47203932e-01 -2.35408690e-01  1.97805561e-01
+   3.08195727e-01  3.58289265e-05]
+ [-3.31245963e-05 -1.83675709e-04 -3.50062244e-04 -9.51883543e-05
+   1.08897709e-03 -9.42945428e-03  1.16533567e-02  3.07078368e-03
+  -1.65778807e-02  3.33474672e-01]
+ [-7.21039009e-05 -5.69364583e-04  8.12835163e-01 -4.51938909e-04
+   6.46878225e-04 -1.01586252e-02  8.25710239e-03  1.22425049e-03
+   3.96578422e-04 -3.02486033e-04]
+ [ 1.98831992e-01  6.16447005e-01 -2.39882067e-03 -8.88450045e-02
+  -1.56149133e-01 -2.59008932e-01 -1.21159593e-01  5.43457004e-02
+  -1.04913093e-01 -2.06388741e-04]
+ [ 1.08430119e-04  6.13016133e-04  8.89682122e-04  7.74685026e-04
+  -2.68261238e-03  2.69252793e-02 -2.86561224e-02 -9.94791626e-03
+   4.05761564e-02  1.39950791e-01]
+ [ 1.60178470e-02  7.18214760e-02  9.81473497e-04 -1.68580835e-01
+   8.44908471e-02  4.72829580e-01 -1.06315446e-01 -1.98270453e-01
+  -2.10672417e-01 -6.40663594e-05]
+ [ 7.77653996e-01 -3.07576137e-01 -5.67750745e-04 -1.12907100e-01
+  -1.49102449e-02 -1.05951486e-02  1.01927269e-02  7.80276817e-02
+  -4.24751532e-02  5.54143272e-04]
+ [ 5.49761638e-02  2.19518674e-01 -6.59603506e-04 -2.62253893e-01
+  -8.98642674e-02  2.70136315e-01 -1.41859729e-01  1.01526744e-01
+  -1.65086451e-01  6.66874018e-07]
+ [ 1.78959009e-01  5.25593881e-01  1.34811990e-03  5.70843376e-02
+  -1.58523206e-01 -3.05813844e-01 -3.57860991e-01  2.76402684e-02
+  -1.21987424e-01  2.93878295e-04]
+ [-4.32057861e-06 -2.60842574e-05 -1.00623238e-05 -7.93097126e-05
+   1.72110638e-05 -7.02795413e-04  2.17219808e-04  3.99700687e-04
+  -1.19332559e-04  9.32312579e-01]
+ [ 6.47861058e-01 -2.78119483e-01  4.09543650e-04 -1.45655826e-01
+  -2.75451319e-02 -5.44662964e-03  8.88915729e-03  1.85030829e-01
+  -1.04465855e-01 -4.03344442e-04]
+ [ 3.00687267e-01  4.08379214e-01  1.92698072e-03  4.86711424e-01
+   7.17620307e-02  4.00878121e-02 -3.92724880e-02 -3.52566407e-01
+   1.75387113e-01 -1.96970635e-05]
+ [ 6.47052553e-02  2.61928513e-01  4.15337962e-04 -3.71735598e-01
+   3.36265404e-01  3.82984365e-02  1.05991856e-01  2.85884310e-02
+  -1.73117544e-01  3.80298367e-05]
+ [ 7.39567204e-03  3.68050588e-02 -1.70367404e-03 -1.48241891e-01
+   6.52239998e-01 -2.10457087e-01 -7.39341201e-02 -1.47309625e-02
+   8.26313217e-02 -2.02017169e-05]
+ [ 1.45226869e-01  2.99172525e-01 -1.55168819e-03  5.76050729e-01
+   2.18432876e-01  2.19679459e-01  1.04625986e-01  2.02563432e-01
+  -3.43953587e-02  2.70110900e-05]
+ [ 5.55892622e-03  2.60287825e-02 -1.30289613e-03 -6.33998033e-02
+  -3.61780620e-02  1.55008376e-01 -1.79231642e-01  2.32340923e-01
+   7.75706179e-01 -3.03639305e-05]
+ [ 9.54732167e-03  4.12753031e-02 -1.42298193e-03 -9.84137186e-02
+  -6.54385599e-03  3.67674878e-01 -1.09649389e-01 -1.87868310e-01
+  -8.40350535e-02  3.13534292e-04]
+ [ 6.36749853e-02  1.91581484e-01 -1.96215221e-03 -1.27716671e-01
+   6.60185384e-02  3.48663024e-01  1.73136259e-01 -4.49174628e-01
+  -2.08777792e-04 -8.63174511e-05]
+ [ 7.80132933e-03  3.89818679e-02  2.07623798e-03 -1.47352521e-01
+   6.43291962e-01 -1.46236209e-01 -1.31077653e-01 -2.82098879e-02
+   1.19258085e-01  4.31010158e-05]
+ [ 9.84668839e-02  3.82310168e-01  1.83012378e-03 -3.60839848e-01
+  -9.49531329e-02 -1.02725701e-01  3.96148551e-01  2.35010207e-01
+   9.18911709e-03 -1.00219639e-04]
+ [ 3.44498887e-02  8.37170186e-02  4.22083105e-04  3.17324621e-01
+   2.08546324e-01  3.30557533e-01  2.17199597e-01  5.70641444e-01
+  -1.74512789e-01 -1.23172422e-06]
+ [ 6.04100397e-01 -1.22629514e-01 -6.20711489e-05  1.00699775e-01
+   2.79146092e-02  1.21228565e-02 -1.57598226e-02 -2.31364605e-01
+   1.39071782e-01 -2.94263361e-04]
+ [ 6.16515647e-02  1.88809308e-01  6.17502601e-04 -9.61192243e-02
+  -7.48274701e-02 -7.42279758e-02  7.09248074e-01 -1.56718853e-01
+   2.67844859e-01  1.16517724e-04]
+ [ 5.15801202e-05  4.25363150e-04  8.14207571e-01  5.13333068e-04
+  -9.26331255e-04  1.14764444e-02 -9.07078896e-03 -1.38686249e-03
+  -5.55364036e-05  3.03843845e-04]]
+(24, 10)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">l</span><span class="o">=</span><span class="n">lsa_top</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Document 0 :&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span><span class="n">topic</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">l</span><span class="p">):</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Topic &quot;</span><span class="p">,</span><span class="n">i</span><span class="p">,</span><span class="s2">&quot; : &quot;</span><span class="p">,</span><span class="n">topic</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Document 0 :
+Topic  0  :  6.116057373418446
+Topic  1  :  24.41004252697031
+Topic  2  :  0.02426344235968518
+Topic  3  :  -29.19464255088084
+Topic  4  :  -10.596681197354268
+Topic  5  :  34.72039320719818
+Topic  6  :  -23.540869002625094
+Topic  7  :  19.78055606267261
+Topic  8  :  30.819572658873707
+Topic  9  :  0.0035828926454230304
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">lsa_model</span><span class="o">.</span><span class="n">components_</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span> <span class="c1"># (no_of_topics*no_of_words)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">lsa_model</span><span class="o">.</span><span class="n">components_</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(10, 260)
+[[ 1.11251518e-01  8.88116115e-03  1.15528592e-02 ...  2.11244770e-01
+   8.88116115e-03  1.06426565e-02]
+ [-5.05469989e-02  3.75837339e-02  3.68358271e-02 ... -9.20850170e-02
+   3.75837339e-02  4.56465328e-02]
+ [ 2.14139996e-04 -1.50221304e-04 -5.78582067e-04 ...  4.25212131e-06
+  -1.50221304e-04  1.05293815e-04]
+ ...
+ [ 4.83988825e-02  2.51548770e-02 -1.24364226e-01 ...  6.01298656e-02
+   2.51548770e-02  7.43386203e-03]
+ [-2.74185653e-02 -4.19923860e-02 -7.12104750e-04 ... -3.44729425e-02
+  -4.19923860e-02 -4.46878005e-02]
+ [-2.20330614e-04  1.95253370e-06 -2.73702698e-05 ...  5.51152996e-05
+   1.95253370e-06  1.75435274e-05]]
+</pre></div>
+</div>
+</div>
+</div>
+<p>Sekarang bisa mendapatkan daftar kata-kata penting untuk masing-masing dari 10 topik seperti yang ditunjukkan. Untuk kesederhanaan di sini saya telah menunjukkan 10 kata untuk setiap topik</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># most important words for each topic</span>
+<span class="n">vocab</span> <span class="o">=</span> <span class="n">vect</span><span class="o">.</span><span class="n">get_feature_names</span><span class="p">()</span>
+
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">comp</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">lsa_model</span><span class="o">.</span><span class="n">components_</span><span class="p">):</span>
+    <span class="n">vocab_comp</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">vocab</span><span class="p">,</span> <span class="n">comp</span><span class="p">)</span>
+    <span class="n">sorted_words</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">vocab_comp</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)[:</span><span class="mi">15</span><span class="p">]</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Topic &quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot;: &quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">sorted_words</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">t</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">end</span><span class="o">=</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Topic 0: 
+polri bareskrim dilaporkan gilang juragan pramana widya dugaan penipuan terkait pemeriksaan penyidik dagang kejahatan meralat 
+
+Topic 1: 
+pemilu pemilihan komisi ketua selasa korupsi pemberantasan ilham jadwal melanjutkan penundaan saputra sesuai tahapan partai 
+
+Topic 2: 
+jenderal panglima perkasa andika dipelajari konflik perkembangan rusiaukraina dilantik februari komandan korps mabes marinir mayjen 
+
+Topic 3: 
+negeri korupsi pemberantasan komisi pemeriksaan penyidik mantan mengagendakan romahurmuziy hakim hidayat isnaeni itong nonaktif penahanan 
+
+Topic 4: 
+fadjar marsekal kepala menjelang college defence ksau kunjungan nostalgia prasetyo staf udara australian alumnus angkatan 
+
+Topic 5: 
+indonesia negeri negara fraksi dunia demokrasi nasional diduga ektp menyelidiki merugikan pengadaan percetakan perum pnri 
+
+Topic 6: 
+partai gerindra bersamaan capres dijagokan kader prabowo sandiaga subianto negeri ketua politik badan bawaslu calon 
+
+Topic 7: 
+negeri arab liga maret peristiwa sejarah tanggal berdirinya pemilu fraksi nasional dilaporkan gilang juragan pramana 
+
+Topic 8: 
+nasional ekonomi hukum intelektual kekayaan kemenkumham kementerian komitmen manusia mendorong mendukung pemerintah pemulihan peningkatan potensi 
+
+Topic 9: 
+alhikam barat depok digelar hasyim haul jawa masjid minggu muzadi pesantren puncak jokowi kabarnya kabinet 
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Welcome to your Jupyter Book</p>
+        </div>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By The Jupyter Book Community<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
